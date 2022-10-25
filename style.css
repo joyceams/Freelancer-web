@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -50,7 +50,7 @@ main {
     padding-bottom: 30px;
 }
 
-.logo img{
+.logo img {
     height: 230px;
 }
 
@@ -74,28 +74,84 @@ main {
     padding-bottom: 40px;
 }
 
-.portfolio{
-    display:flex;
+.portfolio {
+    display: flex;
     background-color: white;
     color: #212529;
     font-family: 'Montserrat';
     font-size: 40px;
     font-weight: 900;
     justify-content: center;
-    padding-top:90px;
+    padding-top: 90px;
     padding-bottom: 35px;
 }
 
-.gallery{
+.gallery {
     background-color: white;
-    display:flex;
+    display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 90px;
 }
 
-.gallery img{
+.gallery img {
     width: 318px;
     padding: 14px;
     object-fit: cover;
+}
+
+.about {
+    display: flex;
+    background-color: #18bc9c;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    flex-flow: wrap column;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.p1 {
+    padding-right: 30px;
+}
+
+.theme {
+display:flex;
+justify-content: center;
+flex-direction: row-reverse;
+}
+
+button {
+    display:flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: 'Lato';
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.download-icon {
+    display:flex;
+    color: white;
+    padding-right: 5px;
 }
