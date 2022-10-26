@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -57,12 +58,21 @@ main {
 .start {
     display: flex;
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 700;
+    line-height: 1.2;
     color: white;
     font-size: 68px;
     justify-content: center;
     padding-bottom: 70px;
 }
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
 
 .textDown {
     display: flex;
@@ -79,8 +89,9 @@ main {
     background-color: white;
     color: #212529;
     font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.2;
     font-size: 40px;
-    font-weight: 900;
     justify-content: center;
     padding-top: 90px;
     padding-bottom: 35px;
@@ -104,10 +115,11 @@ main {
 .about {
     display: flex;
     background-color: #18bc9c;
-    font-family: 'Montserrat';
     color: white;
     font-size: 40px;
-    font-weight: 800;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.2;
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 90px;
@@ -131,13 +143,13 @@ main {
 }
 
 .theme {
-display:flex;
-justify-content: center;
-flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 button {
-    display:flex;
+    display: flex;
     flex-direction: row-reverse;
     text-align: center;
     border-radius: 5px;
@@ -151,7 +163,78 @@ button {
 }
 
 .download-icon {
-    display:flex;
+    display: flex;
     color: white;
     padding-right: 5px;
+}
+
+.contact {
+    display: flex;
+    background-color: white;
+    color: #212529;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 35px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: #212529;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 35px;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #9199a1;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 30px;
+    
+}
+
+input[type=text]{
+width: 40%;
+padding-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    
+}
+
+#message{
+    color: #9199a1;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 30px;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.send{
+    color: white;
+    background-color: #18bc9c;
 }
